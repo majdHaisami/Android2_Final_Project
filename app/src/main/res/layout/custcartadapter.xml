@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardUseCompatPadding="true"
+    android:background="#fff"
+    app:cardElevation="8dp"
+    app:contentPadding="5dp"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Carnamr"
+    android:layout_marginStart="5dp"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:textColor="@color/black"
+    android:layout_marginTop="5dp"
+    android:gravity="center"
+    android:id="@+id/dishnamename"/>
+
+        <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+            android:layout_width="80dp"
+            android:layout_height="25sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="190dp"
+            android:id="@+id/elegentbutton"
+            />
+
+
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Priceprice"
+        android:text="Price"
+        android:layout_marginStart="285dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Totalpricetotalprice"
+        android:text="Totalprice"
+        android:layout_marginStart="285dp"
+        />
+
+
+
+</LinearLayout>
+</androidx.cardview.widget.CardView>

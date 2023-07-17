@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">appFireBase</string>
+    <string-array name="State">
+        <item>South</item>
+        <item>North</item>
+    </string-array>
+    <string-array name="Dishes">
+        <item>فاهيتا</item>
+        <item>جمبري</item>
+        <item>سمك</item>
+        <item>شنيتسل</item>
+        <item>شاورما صاج</item>
+        <item>سوري</item>
+        <item>ستيك عجل</item>
+        <item>معكرونة باشميل</item>
+        <item>معكرونة سباقتي</item>
+        <item>ضاني</item>
+        <item>جناحين</item>
+
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
